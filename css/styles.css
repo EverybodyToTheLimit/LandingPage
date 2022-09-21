@@ -1,0 +1,32 @@
+body {
+    margin:0;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    font-family: Hero;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10%;
+}
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header-logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding-left: 20px;
+}
+
