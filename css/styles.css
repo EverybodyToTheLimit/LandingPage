@@ -43,6 +43,9 @@ h2 {
 p {
     margin: 5px;
 }
+h5 {
+    margin:0;
+}
 
 
 /* Section one styles */
@@ -65,14 +68,14 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: end;
+    justify-content: center;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin-right: 30px;
     margin-top: 0;
     width:50%;
-    flex: 1;
+    flex-shrink: 1;
 }
 .section-one-no-emphasis {
     font-size: 18px;
@@ -184,4 +187,14 @@ button {
     border: solid;
     border-color: #e5e7eb;
     border-radius: 10px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color:#e5e7eb;
+    background-color: #1F2937;
+    padding: 30px 60px;
 }
