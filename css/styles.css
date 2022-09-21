@@ -7,13 +7,12 @@ body {
     margin: none;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* Header style */
+
 .header {
-    font-family: Hero;
-    background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
-    padding: 5px 10%;
 }
 .header-links {
     font-size: 18px;
@@ -24,9 +23,67 @@ body {
     font-weight: 800;
 }
 
+/* Common styles */
 a {
     text-decoration: none;
     color: inherit;
     padding-left: 20px;
 }
 
+.header, .section-one {
+    display:flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 5px 10% 5% 10%;
+}
+
+h2 {
+    margin: 5px;
+}
+p {
+    margin: 5px;
+}
+
+
+/* Section one styles */
+
+.section-one {
+    color: #F9FAF8;
+}
+
+.section-one-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    background-color: grey;
+    width:50%;
+}
+
+.section-one-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-right: 30px;
+    margin-top: 0;
+    width:50%;
+}
+.section-one-no-emphasis {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: normal;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    font-weight: 800;
+    color: #e5e7eb;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
