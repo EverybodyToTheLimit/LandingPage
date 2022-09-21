@@ -131,7 +131,7 @@ button {
 /* Section three styles */
 
 .section-three {
-    padding: 5px 16% 5% 16%;
+    padding: 5% 16% 5% 16%;
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -149,4 +149,39 @@ button {
     justify-content:flex-end;
     font-weight: 800;
     font-size: 24px;
+}
+
+/* Section four styles */
+
+.section-four {
+    padding: 5% 16% 5% 16%;
+}
+
+.section-four-container-box {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color:#3882f6;
+    border: none;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.section-four-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:#e5e7eb;
+    font-size: 24px;
+}
+
+.smaller-text {
+    font-size: 12px;
+}
+
+.section-four-button {
+    border: solid;
+    border-color: #e5e7eb;
+    border-radius: 10px;
 }
