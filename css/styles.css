@@ -34,7 +34,7 @@ a {
     display:flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 5px 10% 5% 10%;
+    padding: 5px 16% 5% 16%;
 }
 
 h2 {
@@ -86,4 +86,42 @@ button {
     font-size: 18px;
     border-radius: 10px;
     padding: 10px 30px;
+}
+
+/* Section two styles */
+
+.section-two {
+    padding: 5px 16% 5% 16%;
+}
+.section-two-text {
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.section-two-images {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section .image {
+    width: 150px;
+    height: 150px;
+    border-color: #3882f6;
+    border-radius: 10px;
+    border-style: solid;
+}
+.section p {
+    text-align: center;
+    width:150px;
+    color: gray;
 }
