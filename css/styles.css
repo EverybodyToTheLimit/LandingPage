@@ -58,6 +58,7 @@ p {
     margin-left: 30px;
     background-color: grey;
     width:50%;
+    flex: 1;
 }
 
 .section-one-text {
@@ -71,6 +72,7 @@ p {
     margin-right: 30px;
     margin-top: 0;
     width:50%;
+    flex: 1;
 }
 .section-one-no-emphasis {
     font-size: 18px;
@@ -124,4 +126,27 @@ button {
     text-align: center;
     width:150px;
     color: gray;
+}
+
+/* Section three styles */
+
+.section-three {
+    padding: 5px 16% 5% 16%;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+.thor-quote {
+    align-items: flex-start;
+    flex: 1;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.signature {
+    display:flex;
+    justify-content:flex-end;
+    font-weight: 800;
+    font-size: 24px;
 }
